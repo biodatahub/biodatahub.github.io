@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioDataHub - Bridging AI and Pharma through Data Engineering</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>BioDataHub</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transforming Experimental Biology Data into AI-Ready Solutions</h1>
+            <p class="hero-subtitle">Bridging the gap between AI companies and pharmaceutical organizations through expert data engineering</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="#contact" class="btn btn-secondary">Get Started</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="data-flow-animation">
+                <div class="data-node" id="raw-data">Raw Data</div>
+                <div class="data-flow-line"></div>
+                <div class="data-node" id="processing">Processing</div>
+                <div class="data-flow-line"></div>
+                <div class="data-node" id="ai-ready">AI-Ready</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive data engineering solutions for experimental biology</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Private Data Engineering</h3>
+                    <p>Custom data engineering solutions for proprietary experimental datasets with complete confidentiality and security</p>
+                    <ul class="service-features">
+                        <li>End-to-end data pipeline development</li>
+                        <li>Quality assurance and validation</li>
+                        <li>Secure cloud infrastructure</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Public Dataset Curation</h3>
+                    <p>Transform publicly available biological datasets into clean, AI-ready training data</p>
+                    <ul class="service-features">
+                        <li>Data standardization and cleaning</li>
+                        <li>Metadata enrichment</li>
+                        <li>Format optimization for ML/AI</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Experimental Data Generation</h3>
+                    <p>Generate high-quality experimental data through our partner laboratory network</p>
+                    <ul class="service-features">
+                        <li>Custom experimental design</li>
+                        <li>Data collection and processing</li>
+                        <li>Integration with AI pipelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Accelerating AI-Driven Drug Discovery</h2>
+                    <p>BioDataHub specializes in transforming complex experimental biological data into standardized, AI-ready datasets. Our expertise bridges the critical gap between raw experimental data and the clean, structured inputs required for machine learning applications in drug discovery and biological research.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>10TB+</h3>
+                            <p>Data Processed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Dataset Types</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>99.9%</h3>
+                            <p>Data Accuracy</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="process-diagram">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <h4>Data Ingestion</h4>
+                            <p>Collect experimental data from various sources</p>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <h4>Processing</h4>
+                            <p>Clean, standardize, and validate data</p>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <h4>AI-Ready Output</h4>
+                            <p>Deliver structured datasets for ML/AI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <h2 class="section-title">Our Technology Stack</h2>
+            <p class="section-subtitle">State-of-the-art tools and frameworks for biological data engineering</p>
+            
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Data Processing</h3>
+                    <div class="tech-items">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">NumPy</span>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Biological Tools</h3>
+                    <div class="tech-items">
+                        <span class="tech-tag">AlphaFold</span>
+                        <span class="tech-tag">GROMACS</span>
+                        <span class="tech-tag">PyMOL</span>
+                        <span class="tech-tag">ChimeraX</span>
+                        <span class="tech-tag">SAXS Analysis</span>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Infrastructure</h3>
+                    <div class="tech-items">
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">HPC Clusters</span>
+                        <span class="tech-tag">Cloud Storage</span>
+                        <span class="tech-tag">Git/GitHub</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="showcase-project">
+                <h3>Showcase: AlphaSAXS</h3>
+                <p>Our flagship project demonstrating end-to-end data engineering capabilities</p>
+                <div class="showcase-content">
+                    <div class="showcase-description">
+                        <p>AlphaSAXS transforms Small-Angle X-ray Scattering (SAXS) experimental data directly into accurate protein structure predictions using advanced AI models. This project, accepted at ICLR 2025 GEM Workshop, showcases our ability to build sophisticated data pipelines that bridge experimental techniques with cutting-edge AI.</p>
+                        <a href="https://github.com/biodatahub/alphasaxs" class="btn btn-outline" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get Started with BioDataHub</h2>
+            <p class="section-subtitle">Transform your experimental data into AI-ready solutions</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to accelerate your AI-driven research?</h3>
+                    <p>Contact us to discuss how BioDataHub can transform your experimental biological data into powerful AI-ready datasets.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@biodatahub.io</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Berkeley, California</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/biodatahub" target="_blank">github.com/biodatahub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="service" required>
+                            <option value="">Select Service Interest</option>
+                            <option value="private">Private Data Engineering</option>
+                            <option value="public">Public Dataset Curation</option>
+                            <option value="generation">Experimental Data Generation</option>
+                            <option value="consultation">General Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Tell us about your project" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>BioDataHub</h3>
+                    <p>Transforming experimental biology data into AI-ready solutions</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="https://github.com/biodatahub">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BioDataHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
